@@ -47,7 +47,7 @@ def stat_hr(hrs):
         return
 
     avg = sum(hrs) / len(hrs)
-    # Counts how many readings are outside the normal 60-100 range
+  
     abn = sum(r < 60 or r > 100 for r in hrs)
 
     print("\nAnalysis Report")
