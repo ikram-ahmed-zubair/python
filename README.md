@@ -1,52 +1,119 @@
-Biomedical Unit Converter
+# Python Learning Projects
 
-A simple command-line tool for converting common biomedical measurement units.
+This repository contains Python projects developed while learning Python for Biomedical Engineering. Each project focuses on strengthening programming fundamentals through practical applications.
 
-Conversions
+---
 
+## Projects
 
-Celsius → Fahrenheit
-Fahrenheit → Celsius
-Centimeter → Meter
-Meter → Centimeter
-Kilogram → Gram
-Gram → Kilogram
+### 1. Biomedical Unit Converter
 
+A command-line application for converting common biomedical measurement units.
 
-Usage
+#### Features
+- Celsius ↔ Fahrenheit
+- Centimeter ↔ Meter
+- Kilogram ↔ Gram
+- Menu-driven interface
+- Input validation using exception handling
 
-Run the script from the terminal:
+#### Concepts Used
+- Variables
+- Functions
+- Conditional Statements
+- Loops
+- Exception Handling
+- User Input
 
-bashpython biomedical_unit_converter.py
+#### Run
 
-Choose an option from the menu (1–6), then enter the value you want to convert.
+```bash
+python biomedical_unit_converter.py
+```
 
-Example
+---
 
-=================================
- Biomedical Unit Converter
-=================================
-1. Celsius → Fahrenheit
-2. Fahrenheit → Celsius
-3. Centimeter → Meter
-4. Meter → Centimeter
-5. Kilogram → Gram
-6. Gram → Kilogram
-Enter your choice: 1
-Enter Celsius: 37
-37.0°C = 98.6°F
+### 2. Heart Rate Analyzer
 
-Project Structure
+A command-line application for recording and analyzing heart rate readings.
 
-python/
-│
-├── biomedical_unit_converter.py
+#### Features
+
+- Add heart rate readings
+- View all recorded heart rates
+- Calculate average heart rate
+- Find highest heart rate
+- Find lowest heart rate
+- Count abnormal readings (below 60 bpm or above 100 bpm)
+- Clear all stored readings
+- Menu-driven interface
+- Input validation using exception handling
+
+#### Concepts Used
+
+- Lists
+- Functions
+- Loops
+- Conditional Statements
+- enumerate()
+- sum()
+- max()
+- min()
+- len()
+- Exception Handling
+- Formatted Strings (f-strings)
+
+#### Run
+
+```bash
+python heart_rate_analyzer.py
+```
+
+---
+
+## Skills Practiced
+
+- Python Basics
+- Functions
+- Lists
+- Loops
+- Conditional Statements
+- Exception Handling
+- User Input
+- Git
+- GitHub
+- Command-Line Programs
+
+---
+
+## Repository Structure
+
+```
+.
 ├── README.md
-└── .gitignore
+├── biomedical_unit_converter.py
+└── heart_rate_analyzer.py
+```
 
-Notes
+---
 
+## Future Projects
 
-Each conversion is implemented as its own function.
-Results are rounded to 2 decimal places with round().
-Entering a menu number outside 1–6 triggers an else block with an error message.
+This repository will continue to grow with projects related to Biomedical Engineering, including:
+
+- BMI Calculator
+- Patient Record System
+- ECG Signal Plotter
+- Vital Signs Logger
+- Medical Image Processing
+- Biomedical Signal Analysis
+
+---
+
+## Author
+
+**Ikram Ahmed Zubair**
+
+Biomedical Engineering Undergraduate
+
+Learning Python for Biomedical Engineering, Medical Imaging, and AI.
