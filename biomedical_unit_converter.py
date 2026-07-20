@@ -53,42 +53,54 @@ def main():
             choice = int(input("Enter your choice: "))
         except ValueError:
             print("Invalid input! Please enter a valid number.\n")
-            continue   
-
+            continue
 
         if choice == 0:
-                print("Exiting... Goodbye!")
-                break
+            print("Exiting... Goodbye!")
+            break
 
         if choice < 1 or choice > 6:
-                print("Invalid choice. Please enter a number between 0 and 6.\n")
-                continue
+            print("Invalid choice. Please enter a number between 0 and 6.\n")
+            continue
 
         if choice == 1:
-                c = float(input("Enter Celsius: "))
-                print(f"Result: {c}°C = {c_to_f(c)}°F\n")
+            c = float(input("Enter Celsius: "))
+            print(f"Result: {c}°C = {c_to_f(c)}°F\n")
 
         elif choice == 2:
-                f = float(input("Enter Fahrenheit: "))
-                print(f"Result: {f}°F = {f_to_c(f)}°C\n")
+            f = float(input("Enter Fahrenheit: "))
+            print(f"Result: {f}°F = {f_to_c(f)}°C\n")
 
         elif choice == 3:
-                cm = float(input("Enter Centimeter: "))
-                print(f"Result: {cm} cm = {cm_to_m(cm)} m\n")
+            cm = float(input("Enter Centimeter: "))
+            print(f"Result: {cm} cm = {cm_to_m(cm)} m\n")
 
         elif choice == 4:
-                m = float(input("Enter Meter: "))
-                print(f"Result: {m} m = {m_to_cm(m)} cm\n")
+            m = float(input("Enter Meter: "))
+            print(f"Result: {m} m = {m_to_cm(m)} cm\n")
 
         elif choice == 5:
-                kg = float(input("Enter Kilogram: "))
-                print(f"Result: {kg} kg = {kg_to_g(kg)} g\n")
+            kg = float(input("Enter Kilogram: "))
+            print(f"Result: {kg} kg = {kg_to_g(kg)} g\n")
 
         elif choice == 6:
-                g = float(input("Enter Gram: "))
-                print(f"Result: {g} g = {g_to_kg(g)} kg\n")
+            g = float(input("Enter Gram: "))
+            print(f"Result: {g} g = {g_to_kg(g)} kg\n")
 
 
 
-if __name__ == "__main__":
-    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
