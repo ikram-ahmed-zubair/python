@@ -23,7 +23,7 @@ def add_hr(hrs):
             print("Heart rate must be positive.\n")
             return
 
-        hrs.append(r)
+        hrs.append(r)  # new
         print("Heart rate added successfully.\n")
 
     except ValueError:
@@ -36,7 +36,7 @@ def view_hr(hrs):
         return
 
     print("\nRecorded Heart Rates")
-    for i, r in enumerate(hrs, 1):
+    for i, r in enumerate(hrs, 1):  # new
         print(f"{i}. {r} bpm")
     print()
 
@@ -47,8 +47,8 @@ def stat_hr(hrs):
         return
 
     avg = sum(hrs) / len(hrs)
-  
-    abn = sum(r < 60 or r > 100 for r in hrs)
+
+    abn = sum(r < 60 or r > 100 for r in hrs)  # see
 
     print("\nAnalysis Report")
     print("-" * 30)
